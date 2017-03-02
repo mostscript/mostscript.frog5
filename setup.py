@@ -28,6 +28,9 @@ setup(
         'Products.GenericSetup',
         'plone.app.dexterity',
         'plone.api',
+        'collective.teamwork',
+        'collective.talkflow',
+        'wildcard.media',
         # -*- Extra requirements: -*-
     ],
     extras_require={
