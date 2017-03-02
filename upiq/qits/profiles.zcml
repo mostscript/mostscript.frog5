@@ -1,0 +1,26 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  xmlns:cmf="http://namespaces.zope.org/cmf"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  i18n_domain="upiq.qits">
+    
+  <!-- default install profile -->
+  <genericsetup:registerProfile
+    name="default"
+    title="QI TeamSpace for Plone 5 (upiq.qits)"
+    directory="profiles/default"
+    description="Installation profile for upiq.qits"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />  
+
+  <!-- uninstall profile -->
+  <genericsetup:registerProfile
+    name="uninstall"
+    title="Uninstall QI TeamSpace (upiq.qits)"
+    directory="profiles/uninstall"
+    description="Uninstall policy product"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+</configure>
