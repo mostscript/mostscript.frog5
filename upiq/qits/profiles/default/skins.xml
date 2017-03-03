@@ -1,0 +1,10 @@
+<object name="portal_skins">
+  <object
+    name="upiq_qits"
+    meta_type="Filesystem Directory View"
+    directory="upiq.qits:skins/upiq_qits"
+    />
+  <skin-path name="Plone Default">
+    <layer name="upiq_qits" insert-after="custom" />
+  </skin-path>
+</object>

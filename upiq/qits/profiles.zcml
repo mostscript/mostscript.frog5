@@ -23,4 +23,8 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />
 
+    <!-- install custom filesystem directory view: we still need to use
+         portal_skins for logo for the moment -->
+    <cmf:registerDirectory name="upiq_qits" />
+
 </configure>
