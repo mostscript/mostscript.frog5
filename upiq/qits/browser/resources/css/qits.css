@@ -6,8 +6,8 @@
   color:#adf;
 }
 
-body.portaltype-collective-teamwork-project .icon-local_roles:before,
-body.portaltype-collective-teamwork-team .icon-local_roles:before,
+body.portaltype-wildcardvideo .icon-local_roles:before,
+body.portaltype-wildcardaudio .icon-local_roles:before,
 body.portaltype-collective-teamwork-workspace .icon-local_roles:before {
   content:'\e804';
   color:white !Important;
@@ -168,7 +168,7 @@ dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode > a {
   color:#888 !important;
 }
 
-#portal-column-one .navTree .navTreeItem .contenttype-collective-teamwork-team.state-visible,
+#portal-column-one .navTree .navTreeItem .contenttype-wildcardaudio.state-visible,
 #portal-column-one .navTree .navTreeItem .contenttype-collective-teamwork-workspace.state-visible {
   border-left:0.5em solid #eeccaa;
 }
@@ -199,4 +199,29 @@ dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode > a {
 
 #portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree .navTreeItem a img {
   padding-right:2px;
+}
+
+/* Content type icons */
+
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardvideo::after,
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardvideo::before,
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before,
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after {
+  background-image: url(../../++resource++upiq.qits/images/video.png);
+  background-repeat: no-repeat !important;
+  margin-left:2px !important;
+  width:20px !important;
+  content:' ';
+}
+
+body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after,
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before {
+  background-image: url(../../++resource++upiq.qits/images/audio.png);
+}
+
+
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardvideo::before,
+body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before {
+  margin-top: -5.5px !important;
+  top: 6px !important;
 }
