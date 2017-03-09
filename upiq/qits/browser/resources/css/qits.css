@@ -3,7 +3,7 @@
 /* toolbar style mods */
 
 #edit-zone nav > ul a > span:before {
-  color:#adf;
+  color:lightsteelblue;
 }
 
 body.portaltype-wildcardvideo .icon-local_roles:before,
