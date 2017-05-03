@@ -15,4 +15,10 @@
   <!-- include Generic Setup extension profiles -->
   <include file="profiles.zcml" />
 
+  <!-- permission(s) needed for rolemap -->
+  <permission
+    id="uu.workflows.EnterData"
+    title="Enter Data"
+    />
+
 </configure>
