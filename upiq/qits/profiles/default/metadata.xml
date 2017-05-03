@@ -3,6 +3,7 @@
   <dependencies>
     <dependency>profile-collective.teamwork:team</dependency>
     <dependency>profile-collective.talkflow:default</dependency>
+    <dependency>profile-collective.documentviewer:default</dependency>
     <dependency>profile-wildcard.media:default</dependency>
   </dependencies>
 </metadata>
