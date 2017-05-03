@@ -1,4 +1,14 @@
 <registry>
+
+  <!-- basic/default site properties -->
+  <record name="plone.email_from_name" interface="Products.CMFPlone.interfaces.controlpanel.IMailSchema" field="email_from_name">
+    <value>QI Workspaces Administrator</value>
+  </record>
+
+  <record name="plone.email_from_address" interface="Products.CMFPlone.interfaces.controlpanel.IMailSchema" field="email_from_address">
+    <value>webmaster@upiq.org</value>
+  </record>
+
   <!-- js/css bundle -->
   <records prefix="plone.bundles/upiq.qits"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
