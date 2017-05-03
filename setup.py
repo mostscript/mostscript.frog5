@@ -30,6 +30,7 @@ setup(
         'plone.api',
         'collective.teamwork',
         'collective.talkflow',
+        'collective.documentviewer',
         'wildcard.media',
         # -*- Extra requirements: -*-
     ],
