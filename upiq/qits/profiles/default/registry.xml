@@ -37,7 +37,7 @@
 
   <!-- tinymce settings: toolbar buttons and order -->
   <record name="plone.toolbar" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="toolbar">
-    <value>styleselect | bold italic underline | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | ploneimage unlink plonelink | hr | fullscreen</value>
+    <value>styleselect | bold italic underline | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | ploneimage unlink plonelink | fullscreen</value>
   </record>
 
   <!-- tinymce settings: formats -->
