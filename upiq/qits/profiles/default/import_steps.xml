@@ -1,0 +1,12 @@
+<import-steps>
+  <import-step id="upiq.qits-safehtml"
+    handler="upiq.qits.setuphandlers.whitelist_safe_styles"
+    title="upiq.qits safe_html whitelisting styles" version="1.0">
+    <dependency step="plone-final"/>
+  </import-step>
+  <import-step id="upiq.qits-displayed-types"
+    handler="upiq.qits.setuphandlers.adjust_nav_displayed_types"
+    title="upiq.qits adjust Navigation-displayed types" version="1.0">
+    <dependency step="plone-final"/>
+  </import-step>
+</import-steps>
