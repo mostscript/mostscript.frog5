@@ -269,3 +269,7 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::
 .mce-tinymce .mce-toolbar .mce-btn button {
   padding: 4px;
 }
+
+.pattern-relateditems-buttons {
+  margin-right:8px !important;
+}
