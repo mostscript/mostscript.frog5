@@ -262,3 +262,10 @@ body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::
 .navTreeItem ul .navTreeItem:last-of-type {
   border-bottom: none !important;
 }
+
+/* tinymce */
+
+/* slightly more compact padding on TinyMCE 4 (mockup) buttons */
+.mce-tinymce .mce-toolbar .mce-btn button {
+  padding: 4px;
+}
