@@ -1,4 +1,4 @@
-from peristent.mapping import PersistentMapping
+from persistent.mapping import PersistentMapping
 from plone import api
 from zope.annotation.interfaces import IAnnotations
 from zope.component.hooks import getSite

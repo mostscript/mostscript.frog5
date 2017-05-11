@@ -1,12 +1,24 @@
 <registry>
 
   <!-- basic/default site properties -->
-  <record name="plone.email_from_name" interface="Products.CMFPlone.interfaces.controlpanel.IMailSchema" field="email_from_name">
-    <value>QI Workspaces Administrator</value>
+  <record name="plone.site_title">
+    <value>QI TeamSpace</value>
   </record>
 
-  <record name="plone.email_from_address" interface="Products.CMFPlone.interfaces.controlpanel.IMailSchema" field="email_from_address">
+  <!-- Mail CP settings -->
+  <record name="plone.email_from_name">
+    <value>QI Workspaces Administrator</value>
+  </record>
+  <record name="plone.email_from_address">
     <value>webmaster@upiq.org</value>
+  </record>
+
+  <!-- security CP settings -->
+  <record name="plone.use_email_as_login">
+    <value>True</value>
+  </record>
+  <record name="plone.use_uuid_as_userid">
+    <value>True</value>
   </record>
 
   <!-- js/css bundle -->
