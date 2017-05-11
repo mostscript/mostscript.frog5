@@ -1,5 +1,8 @@
+from peristent.mapping import PersistentMapping
 from plone import api
-from zope.component.hooks import getSite, setSite
+from zope.annotation.interfaces import IAnnotations
+from zope.component.hooks import getSite
+from zope.component.hooks import setSite
 
 
 # allowed styles for safe_html:
@@ -40,4 +43,14 @@ def whitelist_safe_styles(context):
     plugin = tool.get('safe_html')
     plugin._config['style_whitelist'] = ALLOWED_STYLES
     plugin._p_changed = True
+
+
+def documentviewer_config(context):
+    site = context.getSite()
+    anno = IAnnotations(site)
+    config = anno.get('collective.documentviewer')
+    if config is None:
+        config = PersistentMapping()
+        anno['collective.documentviewer'] = config
+    config['auto_layout_file_types'] = ['ppt', 'word', 'rft', 'excel', 'pdf']
 
