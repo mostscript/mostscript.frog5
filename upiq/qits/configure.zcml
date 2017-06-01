@@ -1,6 +1,7 @@
 <configure
   xmlns="http://namespaces.zope.org/zope"
   xmlns:cmf="http://namespaces.zope.org/cmf"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
   xmlns:grok="http://namespaces.zope.org/grok"
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
@@ -15,10 +16,12 @@
   <!-- include Generic Setup extension profiles -->
   <include file="profiles.zcml" />
 
-  <!-- permission(s) needed for rolemap -->
-  <permission
-    id="uu.workflows.EnterData"
-    title="Enter Data"
-    />
+  <!-- permission(s) needed for rolemap, if uu.workflows not installed -->
+  <configure zcml:condition="not-installed uu.workflows">
+    <permission
+      id="uu.workflows.EnterData"
+      title="Enter Data"
+      />
+  </configure>
 
 </configure>
