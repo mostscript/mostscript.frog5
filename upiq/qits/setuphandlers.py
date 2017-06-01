@@ -26,6 +26,7 @@ def _siteBootstrap(site):
 
 
 def adjust_nav_displayed_types(context):
+    changed = False
     _get = api.portal.get_registry_record
     _set = api.portal.set_registry_record
     site = context.getSite()
@@ -33,8 +34,11 @@ def adjust_nav_displayed_types(context):
     displayed_types = list(_get('plone.displayed_types'))
     types_to_remove = ['File', 'Image']
     for name in types_to_remove:
-        displayed_types.remove(name)
-    _set('plone.displayed_types', tuple(displayed_types))
+        if name in displayed_types:
+            displayed_types.remove(name)
+            changed = True
+    if changed:
+        _set('plone.displayed_types', tuple(displayed_types))
 
 
 def whitelist_safe_styles(context):
