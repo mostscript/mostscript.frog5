@@ -1,5 +1,21 @@
 /* QI TeamSpace Plone 5 styles */
 
+/* general icon positioning for all packages using CSS background images
+ * for some of their types
+ */
+
+body#visual-portal-wrapper.pat-plone .outer-wrapper .navTree .navTree [class*="contenttype-"]::before {
+  background-position-y: 0.4em;
+}
+
+body#visual-portal-wrapper.pat-plone .outer-wrapper .entries [class*="contenttype-"]::before {
+  background-position-y: 0.4em;
+}
+
+body#visual-portal-wrapper.pat-plone .outer-wrapper .pat-structure [class*="contenttype-"]::before {
+  background-position-y: 0.4em;
+}
+
 /* toolbar style mods */
 
 #edit-zone nav > ul a > span:before {
