@@ -32,6 +32,7 @@ setup(
         'collective.talkflow',
         'collective.documentviewer',
         'wildcard.media',
+        'uu.formlibrary',
         # -*- Extra requirements: -*-
     ],
     extras_require={

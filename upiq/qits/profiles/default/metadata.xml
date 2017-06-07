@@ -6,5 +6,6 @@
     <dependency>profile-collective.talkflow:default</dependency>
     <dependency>profile-collective.documentviewer:default</dependency>
     <dependency>profile-wildcard.media:default</dependency>
+    <dependency>profile-uu.formlibrary:default</dependency>
   </dependencies>
 </metadata>
