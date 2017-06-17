@@ -9,7 +9,6 @@
   <browser:resourceDirectory
     name="upiq.qits"
     directory="resources"
-    layer="upiq.qits.interfaces.IQITSProductLayer"
     /> 
 
 </configure>
