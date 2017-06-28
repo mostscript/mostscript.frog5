@@ -220,7 +220,7 @@
       <key_type type="plone.registry.field.ASCIILine" />
       <value_type type="plone.registry.field.Text" />
     </field>
-    <value>
+    <value purge="False">
       <element key="pickadate">{"date": {"selectYears": 200, "min": 100, "max": 20}, "time": {"interval": 15 } }</element>
     </value>
   </record>
