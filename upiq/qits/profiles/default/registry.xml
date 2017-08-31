@@ -100,6 +100,46 @@
 }</value>
   </record>
 
+  <!-- Mosaic TinyMCE buttons: as close as possible to when editing page,
+       with following exceptions:
+
+        * no fullscreen (non-sequitur for tile?)
+
+        * add code button in place of fullscreen, since menu is not shown, we need
+          another way to edit source.
+  -->
+  <record name="plone.app.mosaic.app_tiles.plone_app_standardtiles_html.available_actions">
+    <field type="plone.registry.field.List">
+      <title>Available actions for the html tile</title>
+      <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value>
+      <element>toolbar-styleselect</element>
+      <element>toolbar-bold</element>
+      <element>toolbar-italic</element>
+      <element>toolbar-underline</element>
+      <element>toolbar-forecolor</element>
+      <element>toolbar-backcolor</element>
+      <element>toolbar-alignleft</element>
+      <element>toolbar-aligncenter</element>
+      <element>toolbar-alignright</element>
+      <element>toolbar-alignjustify</element>
+      <element>toolbar-bullist</element>
+      <element>toolbar-numlist</element>
+      <element>toolbar-outdent</element>
+      <element>toolbar-indent</element>
+      <element>toolbar-table</element>
+      <element>toolbar-ploneimage</element>
+      <element>toolbar-unlink</element>
+      <element>toolbar-plonelink</element>
+      <element>toolbar-code</element>
+      <element>contextmenu-tableprops</element>
+      <element>contextmenu-cell</element>
+      <element>contextmenu-row</element>
+      <element>contextmenu-column</element>
+    </value>
+  </record>
+
   <!-- plone.app.caching settings -->
   <record name="plone.app.caching.interfaces.IPloneCacheSettings.cacheStopRequestVariables">
     <value>

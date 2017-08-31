@@ -2,10 +2,12 @@
   <version>1</version>
   <dependencies>
     <dependency>profile-plone.app.caching:default</dependency>
+    <dependency>profile-plone.app.mosaic:default</dependency>
     <dependency>profile-collective.teamwork:team</dependency>
     <dependency>profile-collective.talkflow:default</dependency>
     <dependency>profile-collective.documentviewer:default</dependency>
     <dependency>profile-wildcard.media:default</dependency>
     <dependency>profile-uu.formlibrary:default</dependency>
+    <dependency>profile-uu.chart:default</dependency>
   </dependencies>
 </metadata>
