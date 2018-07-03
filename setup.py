@@ -20,7 +20,7 @@ setup(
     url='http://github.com/mostscript',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['upiq'],
+    namespace_packages=['mostscript'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
