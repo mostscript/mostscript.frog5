@@ -2,6 +2,6 @@ include *.txt
 include README.rst
 
 recursive-include docs *
-recursive-include collective *
+recursive-include mostscript *
 
 global-exclude *pyc
