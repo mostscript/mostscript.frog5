@@ -3,21 +3,21 @@
   xmlns:zcml="http://namespaces.zope.org/zcml"
   xmlns:cmf="http://namespaces.zope.org/cmf"
   xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-  i18n_domain="upiq.qits">
+  i18n_domain="mostscript.frog5">
     
   <!-- default install profile -->
   <genericsetup:registerProfile
     name="default"
-    title="QI TeamSpace for Plone 5 (upiq.qits)"
+    title="ShrubFrog QI for Plone 5 (mostscript.frog5)"
     directory="profiles/default"
-    description="Installation profile for upiq.qits"
+    description="Installation profile for mostscript.frog5"
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />  
 
   <!-- uninstall profile -->
   <genericsetup:registerProfile
     name="uninstall"
-    title="Uninstall QI TeamSpace (upiq.qits)"
+    title="Uninstall ShrubFrog QI (mostscript.frog5)"
     directory="profiles/uninstall"
     description="Uninstall policy product"
     provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -25,6 +25,6 @@
 
     <!-- install custom filesystem directory view: we still need to use
          portal_skins for logo for the moment -->
-    <cmf:registerDirectory name="upiq_qits" />
+    <cmf:registerDirectory name="mostscript.frog5" />
 
 </configure>

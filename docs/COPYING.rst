@@ -1,9 +1,10 @@
 Free software
 -------------
 
-Copyright, 2017 The University of Utah.
+Copyright, 2018 Mostscript LLC
+Original development, Copyright, 2017 The University of Utah.
 
-This package (upiq.qits) is free software licensed under GPL v2,
+This package (mostscript.frog5) is free software licensed under GPL v2,
 with some assets licensed under an MIT-style license (see below).
 
 This software package is released under the terms of the

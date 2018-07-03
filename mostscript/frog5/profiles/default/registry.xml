@@ -2,7 +2,7 @@
 
   <!-- basic/default site properties -->
   <record name="plone.site_title">
-    <value>QI TeamSpace</value>
+    <value>ShrubFrog QI</value>
   </record>
 
   <!-- Mail CP settings -->
@@ -10,7 +10,7 @@
     <value>QI Workspaces Administrator</value>
   </record>
   <record name="plone.email_from_address">
-    <value>webmaster@upiq.org</value>
+    <value>support@mostscript.com</value>
   </record>
 
   <!-- security CP settings -->
@@ -22,11 +22,11 @@
   </record>
 
   <!-- js/css bundle -->
-  <records prefix="plone.bundles/upiq.qits"
+  <records prefix="plone.bundles/mostscript.frog5"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">True</value>
-    <value key="jscompilation">++resource++upiq.qits/js/qits.js</value>
-    <value key="csscompilation">++resource++upiq.qits/css/qits.css</value>
+    <value key="jscompilation">++resource++mostscript.frog5/js/frog5.js</value>
+    <value key="csscompilation">++resource++mostscript.frog5/css/frog5.css</value>
     <value key="last_compilation">2017-03-02 15:00:00</value>
     <value key="compile">False</value>
     <value key="depends">plone</value>

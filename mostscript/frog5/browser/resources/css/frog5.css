@@ -1,4 +1,4 @@
-/* QI TeamSpace Plone 5 styles */
+/* ShrubFrog QI Plone 5 styles */
 
 /* breadcrumbs */
 
@@ -241,7 +241,7 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardvideo::afte
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardvideo::before,
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before,
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after {
-  background-image: url(../../++resource++upiq.qits/images/video.png);
+  background-image: url(../../++resource++mostscript.frog5/images/video.png);
   background-repeat: no-repeat !important;
   width:20px !important;
   content:' ' !important;
@@ -250,7 +250,7 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::afte
 
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after,
 body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before {
-  background-image: url(../../++resource++upiq.qits/images/audio.png);
+  background-image: url(../../++resource++mostscript.frog5/images/audio.png);
 }
 
 

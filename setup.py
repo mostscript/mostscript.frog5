@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 version = '0.1.dev0'
 
 setup(
-    name='upiq.qits',
+    name='mostscript.frog5',
     version=version,
-    description='Policy product for QI TeamSpace on Plone 5',
+    description='Policy product for ShrubFrog QI on Plone 5',
     long_description=(
         open('README.rst').read() + '\n' +
         open('CHANGES.rst').read()
@@ -16,8 +16,8 @@ setup(
         ],
     keywords='',
     author='Sean Upton',
-    author_email='sean.upton@hsc.utah.edu',
-    url='http://github.com/upiq',
+    author_email='sean@mostscript.com',
+    url='http://github.com/mostscript',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['upiq'],
@@ -44,4 +44,3 @@ setup(
     target = plone
     ''',
     )
-

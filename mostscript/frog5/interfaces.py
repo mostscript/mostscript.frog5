@@ -1,5 +1,5 @@
 from zope.interface import Interface
 
 
-class IQITSProductLayer(Interface):
+class IFrog5ProductLayer(Interface):
     """Marker for product layer for browser layer"""

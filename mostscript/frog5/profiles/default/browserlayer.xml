@@ -1,0 +1,6 @@
+<?xml version="1.0"?>    
+<layers> 
+  <layer name="mostscript.frog5"
+         interface="mostscript.frog5.interfaces.IFrog5ProductLayer" /> 
+</layers>
+

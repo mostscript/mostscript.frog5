@@ -1,0 +1,17 @@
+<import-steps>
+  <import-step id="mostscript.frog5-safehtml"
+    handler="mostscript.frog5.setuphandlers.whitelist_safe_styles"
+    title="mostscript.frog5 safe_html whitelisting styles" version="1.0">
+    <dependency step="plone-final"/>
+  </import-step>
+  <import-step id="mostscript.frog5-displayed-types"
+    handler="mostscript.frog5.setuphandlers.adjust_nav_displayed_types"
+    title="mostscript.frog5 adjust Navigation-displayed types" version="1.0">
+    <dependency step="plone-final"/>
+  </import-step>
+  <import-step id="mostscript.frog5-documentviewer-config"
+    handler="mostscript.frog5.setuphandlers.documentviewer_config"
+    title="mostscript.frog5 whitelist file types for Document Conversion" version="1.0">
+    <dependency step="plone-final"/>
+  </import-step>
+</import-steps>

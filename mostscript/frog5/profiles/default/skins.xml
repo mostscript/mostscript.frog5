@@ -1,10 +1,10 @@
 <object name="portal_skins">
   <object
-    name="upiq_qits"
+    name="mostscript_frog5"
     meta_type="Filesystem Directory View"
-    directory="upiq.qits:skins/upiq_qits"
+    directory="mostscript.frog5:skins/mostscript_frog5"
     />
   <skin-path name="Plone Default">
-    <layer name="upiq_qits" insert-after="custom" />
+    <layer name="mostscript_frog5" insert-after="custom" />
   </skin-path>
 </object>

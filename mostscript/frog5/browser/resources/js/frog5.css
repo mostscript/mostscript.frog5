@@ -224,7 +224,7 @@ var checkbrowser = (function (ns, $) {
       type: UNSUPPORTED
     },
     {
-      title: 'TeamSpace discontinued support of versions 9.0, 10.0 of ' +
+      title: 'ShrubFrog QI discontinued support of versions 9.0, 10.0 of ' +
              'Internet Explorer on May 15, 2016. Your browser may be ' +
              'unable to connect properly on/after June 15, 2016. ',
       message: DISPLAY_UNSUPPORTED + DISPLAY_SUPPORTED,
@@ -308,7 +308,7 @@ var checkbrowser = (function (ns, $) {
 
 (function ($) {
   $(document).ready(function () {
-    console.log('Welcome to QI TeamSpace');
+    console.log('Welcome to ShrubFrog QI, by Mostscript');
   });
 }(jQuery));
 

@@ -1,8 +1,9 @@
 Introduction
 ============
 
-Policy product for QI TeamSpace integration on Plone 5, supercedes
-the uu.projectsite, which provides the same for Plone 4.
+Policy product for ShrubFrog QI 5.0 integration on Plone 5,
+which supercedes ShrubFrog 4 (previously marketed as QI TeamSpace,
+and based on Plone 4).
 
 Requires
 --------
@@ -21,11 +22,14 @@ Integrates add-ons
 Credits
 -------
 
-Developed by the University of Utah Department of Pediatrics for UPIQ, the
-Utah Pediatric Partnership to Improve Healthcare Quality.
+Development 2018 — Present: Mostscript LLC.
 
-Author: Sean Upton <sean.upton@hsc.utah.edu>
+Originally developed by the University of Utah Department of Pediatrics
+for UPIQ, the Utah Pediatric Partnership to Improve Healthcare Quality.
 
+Author: Sean Upton <sean@mostscript.com>
+
+Copyright 2018, Mostscript LLC
 Copyright 2017, The University of Utah.
 
 Released as free software under the GNU GPL version 2 license.  Image,
