@@ -25,6 +25,6 @@
 
     <!-- install custom filesystem directory view: we still need to use
          portal_skins for logo for the moment -->
-    <cmf:registerDirectory name="mostscript.frog5" />
+    <cmf:registerDirectory name="mostscript_frog5" />
 
 </configure>
