@@ -25,15 +25,15 @@
  * for some of their types
  */
 
-body#visual-portal-wrapper.pat-plone .outer-wrapper .navTree .navTree [class*="contenttype-"]::before {
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .navTree .navTree [class*="contenttype-"]::before {
   background-position-y: 0.4em;
 }
 
-body#visual-portal-wrapper.pat-plone .outer-wrapper .entries [class*="contenttype-"]::before {
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .entries [class*="contenttype-"]::before {
   background-position-y: 0.4em;
 }
 
-body#visual-portal-wrapper.pat-plone .outer-wrapper .pat-structure [class*="contenttype-"]::before {
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .pat-structure [class*="contenttype-"]::before {
   background-position-y: 0.4em;
 }
 
@@ -100,16 +100,18 @@ body.portaltype-collective-teamwork-workspace .icon-local_roles:before {
   margin-top:0;
 }
 
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree.navTreeLevel0 li.navTreeTopNode {
-  margin-left:-0.1em;
+#portal-column-one .portletNavigationTree ul.navTree.navTreeLevel0 li.navTreeTopNode {
+  margin-left:-0.1em !important;
 }
 
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree.navTreeLevel0 li.navTreeTopNode.navTreeCurrentNode {
+#portal-column-one .portletNavigationTree ul.navTree.navTreeLevel0 li.navTreeTopNode.navTreeCurrentNode {
   margin-left:-0.2em;
 }
 
 #portal-column-one .navTree.navTreeLevel1 {
   border-left:0.5em solid #e9e9e9;
+  margin-left:1.0em;
+  padding-left:0;
 }
 
 #portal-column-one .navTree.navTreeLevel1 .navTreeItem {
@@ -151,15 +153,15 @@ body.portaltype-collective-teamwork-workspace .icon-local_roles:before {
   margin-left:-18px;
 }
 
-.portlet dd.portletItem {
+.portlet .portletContent {
   overflow-x:hidden;
 }
 
-dl.portletNavigationTree dd.portletItem ul.navTree li {
+.portletNavigationTree ul.navTree li {
   border:none;
 }
 
-dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode {
+.portletNavigationTree ul.navTree li.navTreeCurrentNode {
   margin-left:-0.2em;
   border-left:0.5em solid SteelBlue;
   border-bottom:none !important;
@@ -167,7 +169,7 @@ dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode {
   padding-left:1.1em;
 }
 
-dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode > a {
+.portletNavigationTree ul.navTree li.navTreeCurrentNode > a {
   margin-top:-0.2em !important;
 
 }
@@ -207,39 +209,40 @@ dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode > a {
   border-left:0.5em solid #eeccaa;
 }
 
-#portal-column-one .portletNavigationTree .portletItem .navTreeItem a,
-#portal-column-one .portletNavigationTree .portletItem .navTreeItem a span {
+#portal-column-one .portletNavigationTree .portletContent .navTreeItem a,
+#portal-column-one .portletNavigationTree .portletContent .navTreeItem a span {
   color:black;
   font-size:100%;
   font-family:Arial Narrow, Arial;
 }
 
-#portal-column-one .portletNavigationTree .portletItem .navTreeItem a span {
+#portal-column-one .portletNavigationTree .portletContent .navTreeItem a span {
   padding-left:0.2em;
 }
 
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode a.navTreeCurrentItem,
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeTopNode a {
+#portal-column-one .portletNavigationTree ul.navTree li.navTreeCurrentNode a.navTreeCurrentItem,
+#portal-column-one .portletNavigationTree ul.navTree li.navTreeTopNode a {
   font-size:94%;
   font-weight:bold;
   min-height:2.35em;
   margin:-0.3em -1.2em;
+  padding: 0.8em 1.2em !important;
 }
 
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree li.navTreeCurrentNode a.navTreeCurrentItem {
+#portal-column-one .portletNavigationTree ul.navTree li.navTreeCurrentNode a.navTreeCurrentItem {
   background-color:LightSteelBlue;
   border:none;
 }
 
-#portal-column-one dl.portletNavigationTree dd.portletItem ul.navTree .navTreeItem a img {
+#portal-column-one .portletNavigationTree ul.navTree .navTreeItem a img {
   padding-right:2px;
 }
 
 /* Content type icons */
 
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardvideo::after,
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardvideo::before,
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before,
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .contenttype-wildcardvideo::before,
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .contenttype-wildcardaudio::before,
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after {
   background-image: url(../../++resource++mostscript.frog5/images/video.png);
   background-repeat: no-repeat !important;
@@ -249,13 +252,13 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::afte
 }
 
 body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-wildcardaudio::after,
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before {
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .contenttype-wildcardaudio::before {
   background-image: url(../../++resource++mostscript.frog5/images/audio.png);
 }
 
 
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardvideo::before,
-body#visual-portal-wrapper.pat-plone .outer-wrapper .contenttype-wildcardaudio::before {
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .contenttype-wildcardvideo::before,
+body#visual-portal-wrapper.pat-plone .plone-toolbar-main .contenttype-wildcardaudio::before {
   margin-top: -5.5px !important;
   top: 6px !important;
 }
